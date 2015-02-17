@@ -1,0 +1,6 @@
+development:
+adapter: postgresql
+database: malyshev
+username: <%= ENV['PG_USER'] %>
+password: <%= 'password' %>
+host: localhost
